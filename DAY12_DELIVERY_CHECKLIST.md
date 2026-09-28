@@ -1,12 +1,12 @@
-#  Delivery Checklist — Day 12 Lab Submission
+# Delivery Checklist — Day 12 Lab Submission
 
-> **Student Name:** _________________________  
-> **Student ID:** _________________________  
-> **Date:** _________________________
+> **Student Name:** Đặng Hữu Cương
+> **Student ID:** 2A202602572
+> **Date:** 28/09/2026
 
 ---
 
-##  Submission Requirements
+## Submission Requirements
 
 Submit a **GitHub repository** containing:
 
@@ -88,15 +88,16 @@ your-repo/
 ```
 
 **Requirements:**
--  All code runs without errors
--  Multi-stage Dockerfile (image < 500 MB)
--  API key authentication
--  Rate limiting (10 req/min)
--  Cost guard ($10/month)
--  Health + readiness checks
--  Graceful shutdown
--  Stateless design (Redis)
--  No hardcoded secrets
+
+- All code runs without errors
+- Multi-stage Dockerfile (image < 500 MB)
+- API key authentication
+- Rate limiting (10 req/min)
+- Cost guard ($10/month)
+- Health + readiness checks
+- Graceful shutdown
+- Stateless design (Redis)
+- No hardcoded secrets
 
 ---
 
@@ -122,6 +123,7 @@ curl https://your-agent.railway.app/health
 ```
 
 ### API Test (with authentication)
+
 ```bash
 curl -X POST https://your-agent.railway.app/ask \
   -H "X-API-Key: YOUR_KEY" \
@@ -130,15 +132,18 @@ curl -X POST https://your-agent.railway.app/ask \
 ```
 
 ## Environment Variables Set
+
 - PORT
 - REDIS_URL
 - AGENT_API_KEY
 - LOG_LEVEL
 
 ## Screenshots
+
 - [Deployment dashboard](screenshots/dashboard.png)
 - [Service running](screenshots/running.png)
 - [Test results](screenshots/test.png)
+
 ```
 
 ##  Pre-Submission Checklist
@@ -183,30 +188,30 @@ done
 
 ---
 
-##  Submission
+## Submission
 
 **Submit your GitHub repository URL:**
 
 ```
-https://github.com/your-username/day12-agent-deployment
+https://github.com/y0sh1da-available/day12-cohort4-cloud-deployment
 ```
 
 **Deadline:** 17/4/2026
 
 ---
 
-##  Quick Tips
+## Quick Tips
 
-1.  Test your public URL from a different device
-2.  Make sure repository is public or instructor has access
-3.  Include screenshots of working deployment
-4.  Write clear commit messages
-5.  Test all commands in DEPLOYMENT.md work
-6.  No secrets in code or commit history
+1. Test your public URL from a different device
+2. Make sure repository is public or instructor has access
+3. Include screenshots of working deployment
+4. Write clear commit messages
+5. Test all commands in DEPLOYMENT.md work
+6. No secrets in code or commit history
 
 ---
 
-##  Need Help?
+## Need Help?
 
 - Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - Review [CODE_LAB.md](CODE_LAB.md)
